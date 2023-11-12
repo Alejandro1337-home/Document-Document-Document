@@ -42,7 +42,7 @@ $TTL 86400
 
 ; Name Server Information
 @           IN  NS  sysninja
-
+@           IN  A   YOUR_WEBSERVER_IP
 ; Default IP address for undefined subdomains
 *           IN  A   YOUR_WEBSERVER_IP
 
