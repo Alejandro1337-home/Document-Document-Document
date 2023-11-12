@@ -6,6 +6,7 @@
 4. [DHCP](#dhcp)
 5. [UFW](#ufw)
 6. [Squid Proxy](#squid-proxy)
+7. [Hardening](#hardening)
 ## Overview of CentOS <a name="Overview"></a>
 
 ### CentOS (Community ENTerprise Operating System):
@@ -102,7 +103,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## DNS <a name="dns"></a>
 
-[Instructions for DNS](DNS/dns-instructions.md)
+[Instructions for DNS](DNS/README.md)
 
 [Include information about setting up and configuring DNS on your CentOS server.]
 
@@ -110,7 +111,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## DHCP <a name="dhcp"></a>
 
-[Instructions for DHCP](DHCP/dhcp-Instructions.md)
+[Instructions for DHCP](DHCP/README.md)
 
 [Include information about setting up and configuring DHCP on your CentOS server.]
 
@@ -118,7 +119,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## UFW <a name="ufw"></a>
 
-[Instructions for UFW](UFW/ufw-Instructions.md)
+[Instructions for UFW](UFW/README.md)
 
 [Include information about setting up and configuring UFW on your CentOS server.]
 
@@ -126,6 +127,14 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## Squid Proxy <a name="squid-proxy"></a>
 
-[Instructions for Squid](SQUID/Squid-Instructions.md)
+[Instructions for Squid](SQUID/README.md)
 
 [Include information about setting up and configuring Squid on your CentOS server.]
+
+---
+
+## Hardening <a name="Hardening"></a>
+
+[Instructions for Hardening](Hardening/README.md)
+
+[Include information about setting up and configuring Hardening on your CentOS server.]
