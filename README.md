@@ -42,7 +42,7 @@
 
 ## UFW <a name="ufw"></a>
 
-[Explain how to set up and configure the Uncomplicated Firewall (UFW) on CentOS.](ufw.md)
+[Explain how to set up and configure the Uncomplicated Firewall (UFW) on CentOS.](UFW instructions)
 
 ---
 
