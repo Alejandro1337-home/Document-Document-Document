@@ -48,7 +48,7 @@ $TTL 86400
 
 ```
 [alt text][dns2]
-[dns2]: file:///C:/Users/ajq20/Documents/Task/dns2.png
+[dns2]: C:/Users/ajq20/Documents/Task/dns2.png
 Root A Record (@): Added an A record for the root of the zone (@), pointing to the IP address of your web server.
 
 Wildcard A Record (*): Added a wildcard A record to facilitate A record replies for any query that does not match an existing record. This ensures that undefined subdomains will resolve to the specified IP address.
