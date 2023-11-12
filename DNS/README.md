@@ -89,6 +89,6 @@ Add the SPF record under the existing content:
 Step 8: Reload BIND
 Reload BIND to apply the changes:
 ```bash
-Reload BIND to apply the changes:
+sudo systemctl reload named
 ```
 Now, you have set up a customized TLD with DNS zone configuration, TXT verification, and SPF record on CentOS using BIND. Replace YOUR_WEBSERVER_IP with the actual IP address of your web server.
