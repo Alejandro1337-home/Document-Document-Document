@@ -1,8 +1,6 @@
-# Instructions on setting up DNS on your CentOS machine
+# Setting up DNS on your CentOS machine
 
 ---
-
-# Setting Up a Custom TLD with DNS on CentOS
 
 ## Part A: Configuring DNS for Customized TLD
 
