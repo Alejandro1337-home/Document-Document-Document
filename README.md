@@ -41,6 +41,7 @@
 [Instructions for DHCP](DHCP/dhcp-Instructions)
 
 [Include information about setting up and configuring DHCP on your CentOS server.]
+
 ---
 
 ## UFW <a name="ufw"></a>
