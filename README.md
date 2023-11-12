@@ -25,7 +25,7 @@
 ## Install <a name="install"></a>
 
 ## 1. Download CentOS ISO:
-- Go to [official CentOS download page](https://www.centos.org/download/).
+- Go to [official CentOS download page](https://www.centos.org/centos-stream/).
 - Download the ISO image for the desired version.
 
 ## 2. Set Up VMware Workstation:
