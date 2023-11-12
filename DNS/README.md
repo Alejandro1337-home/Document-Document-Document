@@ -23,7 +23,8 @@ zone "sysninja" IN {
     file "/etc/named/sysninja.zone";
 };
 ```
-![dns1]
+![dns1](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/43414a05-3957-4a8e-9e53-ef9e63a116b0)
+
 ### Step 3: Create the Zone File
 Create a new zone file for "sysninja":
 
