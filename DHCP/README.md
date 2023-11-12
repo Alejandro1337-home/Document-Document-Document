@@ -1,6 +1,6 @@
 # DHCP Server Setup Guide
 
-This guide walks you through setting up a DHCP server on Ubuntu and CentOS.
+This guide walks you through setting up a DHCP server  on CentOS.
 
 ## CentOS DHCP Configuration
 
