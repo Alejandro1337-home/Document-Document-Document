@@ -54,4 +54,4 @@ sudo systemctl restart dhcpd.service
 
 ## Testing
 
-[I suggest testing your dhcp service by following these steps.](DHCP/Set-up-DHCP-to-a-Virtual-Client.md)
+[I suggest testing your dhcp service by following these steps.](Set-up-DHCP-to-a-Virtual-Client.md)
