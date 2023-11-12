@@ -35,6 +35,15 @@ CentOS can provide a range of network services, including:
 4. **Squid Proxy:**
    - CentOS can be configured as a Squid proxy server, facilitating caching and controlling access to web resources, improving network performance and security.
 
+5. **Hardening:**
+   - SSH Hardening:
+   Restrict Root Access: Disable direct root login by setting PermitRootLogin no in /etc/ssh/sshd_config.
+   Enhance Authentication: Enforce SSH key authentication (PasswordAuthentication no) and consider implementing Two-Factor Authentication (2FA).
+   - User Rules:
+   Limit Privileges: Use sudo to control user administrative access, minimizing the use of root privileges.
+   Password Security: Enforce strong password policies (pam_pwquality) and implement account lockout mechanisms for added security.
+   These succinct configurations enhance security by restricting access and implementing robust authentication measures.
+
 ## Supported Network Topology:
 
 CentOS supports a flexible network topology with various interfaces:
