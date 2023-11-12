@@ -32,7 +32,7 @@ sudo nano /etc/named/sysninja.zone
 Add the following content:
 ```bash
 $TTL 86400
-@   IN  SOA     ns.sysninja. root.sysninja. (
+@   IN  SOA     sysninja sysninja (
                2023111201  ; serial
                3600        ; refresh
                1800        ; retry
@@ -41,7 +41,7 @@ $TTL 86400
 )
 
 ; Name Server Information
-@           IN  NS  ns.sysninja.
+@           IN  NS  sysninja
 
 ; Default IP address for undefined subdomains
 *           IN  A   YOUR_WEBSERVER_IP
