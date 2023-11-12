@@ -45,3 +45,9 @@ Edit /etc/sysconfig/dhcpd to specify the interface.
 # Example interface setting (/etc/sysconfig/dhcpd)
 DHCPDARGS=ens33
 ```
+7. **Restart the service:**
+
+```bash
+sudo systemctl enable dhcpd.service
+sudo systemctl restart dhcpd.service
+```
