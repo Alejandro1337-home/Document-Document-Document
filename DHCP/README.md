@@ -37,6 +37,8 @@ subnet 10.0.0.0 netmask 255.255.255.0 {
   authoritative;
 }
 ```
+![dhcp](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/658fb28b-1f2f-4111-be6a-e81683e27f28)
+
 
 6. **Assign DHCP Server to Connect Interface:**
 Edit /etc/sysconfig/dhcpd to specify the interface.
