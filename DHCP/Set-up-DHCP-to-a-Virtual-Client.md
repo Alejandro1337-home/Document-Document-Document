@@ -22,4 +22,8 @@
 ![windwos](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/4fd6cc68-1304-4853-8293-959e245d1c24)
 
 ## Check out the Lease Info!
+
+```bash
+cd /var/lib/dhcpd
+```
 ![image](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/a0e5a938-be16-4daf-8b18-56f323d7b870)
