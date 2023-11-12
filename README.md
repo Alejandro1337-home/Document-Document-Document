@@ -133,7 +133,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ---
 
-## Hardening <a name="Hardening"></a>
+## Hardening <a name="hardening"></a>
 
 [Instructions for Hardening](Hardening/README.md)
 
