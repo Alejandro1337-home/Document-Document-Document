@@ -23,6 +23,7 @@ zone "sysninja" IN {
     file "/etc/named/sysninja.zone";
 };
 ```
+![dns1]
 ### Step 3: Create the Zone File
 Create a new zone file for "sysninja":
 
@@ -48,6 +49,7 @@ $TTL 86400
 
 ```
 ![dns2](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/f0ca55fd-2d40-46fd-93f5-732275e7301c)
+
 Root A Record (@): Added an A record for the root of the zone (@), pointing to the IP address of your web server.
 
 Wildcard A Record (*): Added a wildcard A record to facilitate A record replies for any query that does not match an existing record. This ensures that undefined subdomains will resolve to the specified IP address.
