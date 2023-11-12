@@ -1,1 +1,21 @@
+# Set Up Virtual Client on VMware (Same VMnet)
 
+## Configure VMnet:
+
+1. Ensure both DHCP server and client are on the same VMnet.
+2. Open VMware, navigate to `Edit` > `Virtual Network Editor`.
+3. Note the VMnet number being used (e.g., VMnet2).
+
+## Create Virtual Client:
+
+1. Create a new virtual machine for the client.
+2. During configuration, select the same VMnet as the DHCP server.
+
+## Configure Client to Obtain IP via DHCP:
+
+1. In the client's network settings, set it to obtain an IP address automatically.
+
+## Test DHCP on Client:
+
+1. Start the virtual client.
+2. Check if the client successfully receives an IP address from the DHCP server.
