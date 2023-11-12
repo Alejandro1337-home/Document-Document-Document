@@ -30,22 +30,22 @@
 
 ## DNS <a name="dns"></a>
 
-[Include information about setting up and configuring DNS on your CentOS server.](dns.md)
+[Include information about setting up and configuring DNS on your CentOS server.](dns-Instructions)
 
 ---
 
 ## DHCP <a name="dhcp"></a>
 
-[Provide details on configuring DHCP on your CentOS server.](dhcp.md)
+[Provide details on configuring DHCP on your CentOS server.](dhcp-Instructions)
 
 ---
 
 ## UFW <a name="ufw"></a>
 
-[Explain how to set up and configure the Uncomplicated Firewall (UFW) on CentOS.](UFW instructions)
+[Explain how to set up and configure the Uncomplicated Firewall (UFW) on CentOS.](ufw-Instructions)
 
 ---
 
 ## Squid Proxy <a name="squid-proxy"></a>
 
-[Document the installation and configuration of the Squid Proxy on your CentOS server.](squid-proxy.md)
+[Document the installation and configuration of the Squid Proxy on your CentOS server.](Squid-Instructions)
