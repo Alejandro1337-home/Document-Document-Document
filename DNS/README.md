@@ -47,6 +47,9 @@ $TTL 86400
 *           IN  A   YOUR_WEBSERVER_IP
 
 ```
+Root A Record (@): Added an A record for the root of the zone (@), pointing to the IP address of your web server.
+
+Wildcard A Record (*): Added a wildcard A record to facilitate A record replies for any query that does not match an existing record. This ensures that undefined subdomains will resolve to the specified IP address.
 ### Step 4: Start and Enable BIND
 
 ```bash
