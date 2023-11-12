@@ -91,6 +91,8 @@ Add the SPF record under the existing content:
 ; SPF Record for Outgoing Mail Integration with Google Apps (gmail)
 @           IN  TXT "v=spf1 include:_spf.google.com ~all"
 ```
+![dns3](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/03718be9-beb2-472d-8bef-ec876360a1ca)
+
 ### Step 8: Reload BIND
 Reload BIND to apply the changes:
 
@@ -106,5 +108,6 @@ Go inside /etc/resolv.conf
 sudo nano /etc/resolv.conf
 ```
 Locate the lines that say "nameserver" Results should show that it resolved the configured IP from YOUR nameserver
+![dns4](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/2143c5ed-9eef-463a-885e-71ce6df91a23)
 
 Now, you have set up a customized TLD with DNS zone configuration, TXT verification, and SPF record on CentOS using BIND. Replace YOUR_WEBSERVER_IP with the actual IP address of your web server.
