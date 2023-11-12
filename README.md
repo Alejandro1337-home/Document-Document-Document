@@ -13,7 +13,7 @@
 - CentOS is a free and open-source Linux distribution that is community-supported and derived from the source code of Red Hat Enterprise Linux (RHEL).
 - It aims to provide a stable, reliable, and secure platform suitable for enterprise-level deployments.
 
-#### Purpose of CentOS:
+### Purpose of CentOS:
 
 - CentOS is designed to be a downstream, binary-compatible, and free alternative to RHEL, allowing users to enjoy the benefits of RHEL without the associated costs.
 - It is well-suited for servers, workstations, and various computing environments where stability and compatibility are paramount.
