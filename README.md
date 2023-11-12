@@ -38,16 +38,21 @@
 
 ## DHCP <a name="dhcp"></a>
 
-[Provide details on configuring DHCP on your CentOS server.](dhcp-Instructions)
+[Instructions for DHCP](DHCP/dhcp-Instructions)
 
+[Include information about setting up and configuring DHCP on your CentOS server.]
 ---
 
 ## UFW <a name="ufw"></a>
 
-[Explain how to set up and configure the Uncomplicated Firewall (UFW) on CentOS.](ufw-Instructions)
+[Instructions for DHCP](UFW/ufw-Instructions)
+
+[Include information about setting up and configuring UFW on your CentOS server.]
 
 ---
 
 ## Squid Proxy <a name="squid-proxy"></a>
 
-[Document the installation and configuration of the Squid Proxy on your CentOS server.](Squid-Instructions)
+[Instructions for DHCP](SQUID/Squid-Instructions)
+
+[Include information about setting up and configuring Squid on your CentOS server.]
