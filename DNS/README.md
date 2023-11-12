@@ -32,7 +32,7 @@ sudo nano /etc/named/sysninja.zone
 Add the following content:
 ```bash
 $TTL 86400
-@   IN  SOA     sysninja sysninja (
+@   IN  SOA    sysninja     sysninja (
                2023111201  ; serial
                3600        ; refresh
                1800        ; retry
