@@ -102,7 +102,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## DNS <a name="dns"></a>
 
-[Instructions for DNS](DNS/dns-instructions)
+[Instructions for DNS](DNS/dns-instructions.md)
 
 [Include information about setting up and configuring DNS on your CentOS server.]
 
@@ -110,7 +110,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## DHCP <a name="dhcp"></a>
 
-[Instructions for DHCP](DHCP/dhcp-Instructions)
+[Instructions for DHCP](DHCP/dhcp-Instructions.md)
 
 [Include information about setting up and configuring DHCP on your CentOS server.]
 
@@ -118,7 +118,7 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## UFW <a name="ufw"></a>
 
-[Instructions for UFW](UFW/ufw-Instructions)
+[Instructions for UFW](UFW/ufw-Instructions.md)
 
 [Include information about setting up and configuring UFW on your CentOS server.]
 
@@ -126,6 +126,6 @@ CentOS supports a flexible network topology with various interfaces:
 
 ## Squid Proxy <a name="squid-proxy"></a>
 
-[Instructions for Squid](SQUID/Squid-Instructions)
+[Instructions for Squid](SQUID/Squid-Instructions.md)
 
 [Include information about setting up and configuring Squid on your CentOS server.]
