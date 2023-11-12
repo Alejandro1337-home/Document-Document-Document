@@ -31,6 +31,7 @@
 ## DNS <a name="dns"></a>
 
 [Instructions for DNS](DNS/dns-instructions)
+
 [Include information about setting up and configuring DNS on your CentOS server.]
 
 ---
