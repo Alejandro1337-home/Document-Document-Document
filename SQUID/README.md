@@ -38,9 +38,11 @@ Save and exit the editor.
 Include the path to the denied sites configuration file inside '/etc/squid/squid.conf':
 
 ```bash 
-acl denied_sites dstdomain "/etc/squid/denied-sites.conf"
+acl denied_sites url_regex -i "/etc/squid/denied-sites.conf"
 http_access deny denied_sites
 ```
+![squid](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/77ec904f-de06-4e0f-b152-6d0273e7667a)
+
 3. **Update UFW (Assuming you are using UFW):**
 
 ```bash
@@ -60,6 +62,7 @@ Add the following iptables rule:
 ```bash
 sudo iptables -t nat -I PREROUTING -p tcp -s 10.0.0.0/24 --dport 80 -j REDIRECT --to-port 3128
 ```
+![wd](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/d6aa648d-bb7a-4a5c-9360-4e103453157d)
 
 6. **Reload Squid and iptables:**
 
