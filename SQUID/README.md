@@ -64,7 +64,7 @@ sudo iptables -t nat -I PREROUTING -p tcp -s 10.0.0.0/24 --dport 80 -j REDIRECT 
 ```
 ![wd](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/d6aa648d-bb7a-4a5c-9360-4e103453157d)
 
-__In this example I changed the http_access port to 8888 rather than the default 3128. [Click here](Specifc-Port-Or-IP-Address.md) to learn how i did it__
+__In this example I changed the http_access port to 8888 rather than the default 3128. [Click here](Specifc-Port-Or-IP-Address.md) to learn how i did it!!__
 
 6. **Reload Squid and iptables:**
 
