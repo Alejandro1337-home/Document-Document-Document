@@ -1,0 +1,22 @@
+$TTL 86400
+@       IN      SOA     sysninja        sysninja (
+                        2023111201  ;   serial
+                        3060        ;   refresh
+                        1800        ;   retry
+                        604800      ;   expire
+                        86400       ;   minimum TTL
+)
+
+; Name Server Information
+@       IN NS sysninja
+@       IN A  172.16.147.11
+; Default IP address for undefined Subdomains
+*       IN      A       172.16.147.11
+
+
+
+
+
+
+
+
