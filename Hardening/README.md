@@ -42,7 +42,7 @@ sudo systemctl start yum-cron
 sudo systemctl enable yum-cron
 ```
 
-3. **Lock down access to our server even further:**
+3. **Changing the sshd_config for better security:**
 
 ```bash
 # Change SSH port and enhance security
