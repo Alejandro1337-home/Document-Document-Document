@@ -2,6 +2,10 @@
 
 This guide walks you through setting up a DHCP server  on CentOS.
 
+To learn more about DHCP on CentOS click here:
+
+[Running a DHCP server on CentOS](https://hostingultraso.com/help/centos/running-dhcp-server-centos)
+
 ## CentOS DHCP Configuration
 
 1. **Add Additional Adapter:**
