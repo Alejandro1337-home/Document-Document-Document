@@ -1,5 +1,5 @@
 # Set Up UFW on CentOS
-On CentOS, the standard tool for configuring firewalls is firewalld. If you still want to use ufw on CentOS, you need to install it since it's not available by default.
+On CentOS, the standard tool for configuring firewalls is [firewalld](UFW/CentOS Firewalld.md). If you still want to use ufw on CentOS, you need to install it since it's not available by default.
 ## Install UFW (if not already installed):
 
 ```bash
