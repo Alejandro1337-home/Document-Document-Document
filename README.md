@@ -139,6 +139,7 @@ Configuring DHCP (Dynamic Host Configuration Protocol) on CentOS streamlines net
 [Instructions for Squid](SQUID/README.md)
 
 Squid is a popular proxy server and web cache daemon that enhances network performance and security on CentOS. By caching frequently accessed web content, Squid accelerates browsing and reduces bandwidth usage. Install Squid using yum, configure access control lists (ACLs) in **/etc/squid/squid.conf** to define policies for network access, and start the service with **systemctl start squid**. Squid can also be configured as a transparent proxy, intercepting and redirecting web traffic seamlessly. With its robust features, Squid plays a crucial role in optimizing network resources and providing content filtering capabilities on CentOS systems.
+
 ---
 
 ## Hardening <a name="hardening"></a>
