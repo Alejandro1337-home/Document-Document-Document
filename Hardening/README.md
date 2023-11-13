@@ -55,7 +55,10 @@ AddressFamily inet
 PermitRootLogin no
 # Disable password authentication
 PasswordAuthentication no
+```
 
+
+```bash
 # Restart SSH service
 sudo systemctl restart sshd
 
@@ -72,7 +75,11 @@ sudo firewall-cmd --list-all
 sudo ufw status
 ```
 
+**Adjust SELinux**
 
+```bash
+semanage port -a -t ssh_port_t -p tcp 2222
+```
 
 
 4. **planning to use Rsync?**
