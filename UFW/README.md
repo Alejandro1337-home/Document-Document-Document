@@ -98,4 +98,4 @@ sudo ufw reload
 sudo iptables -t nat -L -n -v
 ```
 ![amogn](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/66e75e65-f5b8-4b42-b7fc-9c022ad9e279)
-
+*If set up properly you should be able to ping beyond your gateway and the client machine should be able to access the internet :)*
