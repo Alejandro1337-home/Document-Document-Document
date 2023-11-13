@@ -64,7 +64,7 @@ Edit '/etc/ufw/before.rules':
 sudo nano /etc/ufw/before.rules
 ```
 
-Add the following NAt rules at the top:
+Add the following NAT rules at the top:
 
 ```bash
 # NAT table rules
