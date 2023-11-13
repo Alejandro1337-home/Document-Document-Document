@@ -55,7 +55,10 @@ AddressFamily inet
 PermitRootLogin no
 # Disable password authentication
 PasswordAuthentication no
+```
+![hardf3](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/35675be5-ff70-4193-8f83-e6dc1d520650)
 
+```bash
 # Restart SSH service
 sudo systemctl restart sshd
 
@@ -71,6 +74,8 @@ sudo systemctl restart ufw
 sudo firewall-cmd --list-all
 sudo ufw status
 ```
+![hard3](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/2b6abbb9-2a8c-49d9-8cf3-5368ac5e7c25)
+
 
 4. **planning to use Rsync?**
 
