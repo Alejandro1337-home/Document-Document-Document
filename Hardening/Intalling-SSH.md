@@ -64,3 +64,13 @@ To disable SSH after reboot, enter:
 ```bash
 sudo systemctl disable sshd
 ```
+
+5. **Testing:**
+
+Now on the machine you are using to SSH type this:
+
+Read the [README.md](README.md) file to learn how to change the port ;)
+
+```bash
+ssh -p 22 Hostname@Ip-Address
+```
