@@ -68,13 +68,17 @@ sudo nano /etc/ufw/before.rules
 
 Add the following NAT rules at the top:
 
+*please not that the outgoing interface must be YOUR public interface in this case (-o ens36)*
+
+*Your POSTROUTING rule for MASQUERADE should target your private network as the source*
+
 ```bash
 # NAT table rules
 *nat
 :POSTROUTING ACCEPT [0:0]
 
 # MASQUERADE rule
--A POSTROUTING -s 10.0.0.0/24 -o ens160 -j MASQUERADE
+-A POSTROUTING -s 10.0.0.0/24 -o ens36 -j MASQUERADE
 
 # End of NAT table
 COMMIT
