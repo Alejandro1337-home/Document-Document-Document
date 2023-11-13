@@ -144,6 +144,6 @@ Squid is a popular proxy server and web cache daemon that enhances network perfo
 
 ## Hardening <a name="hardening"></a>
 
-[Instructions for Hardening](hardening/README.md)
+[Instructions for Hardening](Hardening/README.md)
 
 When hardening CentOS with a focus on SSH and user rules, administrators should take steps to secure remote access and user authentication. This involves configuring SSH to use key-based authentication, disabling root login, and specifying allowed users. Additionally, implement firewall rules, using tools like UFW or firewalld, to control incoming and outgoing network traffic. Enforce strong password policies, regularly audit user accounts, and consider employing tools like fail2ban to mitigate brute force attacks. By combining these measures, administrators can significantly enhance the security of SSH access and user accounts on a CentOS system.
