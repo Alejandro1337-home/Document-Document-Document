@@ -52,7 +52,7 @@ sudo ufw allow 3128
 4. **Update Firewalld (Assuming you are using firewalld):**
 
 ```bash
-firewall-cmd --permanent --zone=public --add-port=80/tcp
+firewall-cmd --permanent --zone=public --add-port=3128/tcp
 ```
 
 5. **Configure Squid as a Transparent Proxy:**
@@ -63,6 +63,8 @@ Add the following iptables rule:
 sudo iptables -t nat -I PREROUTING -p tcp -s 10.0.0.0/24 --dport 80 -j REDIRECT --to-port 3128
 ```
 ![wd](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/d6aa648d-bb7a-4a5c-9360-4e103453157d)
+
+__In this example I changed the http_access port to 8888 rather than the default 3128. [Click here](Specifc-Port-Or-IP-Address.md) to learn how i did it__
 
 6. **Reload Squid and iptables:**
 
