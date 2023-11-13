@@ -49,4 +49,4 @@ sudo restart ufw
 
 ```bash
 sudo systemctl restart squid
-``````
+```
