@@ -22,6 +22,7 @@ sudo visudo
 # Check if a user is a member of the sudo group
 groups USERNAME
 ```
+![hard](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/89f12f5e-8032-4af5-8439-8999963c48c7)
 
 2. **Stay Current with Updates**
 
@@ -56,6 +57,7 @@ PermitRootLogin no
 # Disable password authentication
 PasswordAuthentication no
 ```
+![hardf3](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/c66a82a0-e2ad-4432-9aff-07771f25b2f2)
 
 
 ```bash
@@ -74,12 +76,14 @@ sudo systemctl restart ufw
 sudo firewall-cmd --list-all
 sudo ufw status
 ```
+![hard3](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/fd307c70-0f75-4f09-8133-6f0806e821b2)
 
 **Adjust SELinux**
 
 ```bash
 semanage port -a -t ssh_port_t -p tcp 2222
 ```
+![hard2](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/93952b75-b961-4edf-9bc9-c818b6896d7b)
 
 
 4. **planning to use Rsync?**
