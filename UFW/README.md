@@ -97,4 +97,5 @@ sudo ufw reload
 ```bash
 sudo iptables -t nat -L -n -v
 ```
-![ufw](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/9f5b0735-84cb-4794-ba82-119e52a51bd2)
+![amogn](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/66e75e65-f5b8-4b42-b7fc-9c022ad9e279)
+
