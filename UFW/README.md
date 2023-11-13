@@ -84,6 +84,7 @@ Add the following NAT rules at the top:
 COMMIT
 ```
 Save and exit the editor.
+
 ![ufww](https://github.com/Iamaguest5/Document-Document-Document/assets/148782286/a627b71c-a536-414b-a15e-a5c5d0b3da3a)
 
 6. **Reload UFW:**
