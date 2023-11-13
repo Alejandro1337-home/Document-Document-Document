@@ -1,5 +1,5 @@
 # Set Up UFW on CentOS
-
+On CentOS, the standard tool for configuring firewalls is firewalld. If you still want to use ufw on CentOS, you need to install it since it's not available by default.
 ## Install UFW (if not already installed):
 
 ```bash
@@ -41,4 +41,52 @@ Restart the network service:
 
 ```bash
 sudo systemctl restart network
+```
+## Configure UFW:
+
+3. **Allow incoming SSH Traffic (Optional):**
+
+```bash
+sudo ufw allow OpenSSH
+```
+
+4. **Enable UFW:**
+
+```bash
+sudo ufw enable
+```
+
+5. **Add NAT Rules:**
+
+Edit '/etc/ufw/before.rules':
+
+```bash
+sudo nano /etc/ufw/before.rules
+```
+
+Add the following NAt rules at the top:
+
+```bash
+# NAT table rules
+*nat
+:POSTROUTING ACCEPT [0:0]
+
+# MASQUERADE rule
+-A POSTROUTING -s 10.0.0.0/24 -o ens160 -j MASQUERADE
+
+# End of NAT table
+COMMIT
+```
+Save and exit the editor.
+
+6. **Reload UFW:**
+
+```bash
+sudo ufw reload
+```
+
+## Verify NAT Rules:
+
+```bash
+sudo iptables -t nat -L -n -v
 ```
